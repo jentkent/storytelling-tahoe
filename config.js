@@ -25,7 +25,7 @@ var config = {
             alignment: 'center',
             hidden: false,
             title: 'What is the Tahoe Environmental Observatory Network?',
-            image: './assets/tahoe-scenic.jpeg',
+            image: './assets/tahoe-scenic.jpg',
             description: 'Lake Tahoe is known for its crystal clear waters and stunning vistas. For decades, conservation efforts have focused on the lake itself, <span style="color: #dcc581;"><strong>monitoring and protecting its fragile clarity.</strong></span>',
             location: {
                 center: [-120.0324, 39.0968],
