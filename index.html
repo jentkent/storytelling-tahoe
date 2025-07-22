@@ -17,6 +17,8 @@
             font-size: 20px;
             font-family: Georgia, 'Times New Roman', Times, serif;
             text-rendering: optimizeLegibility;
+            background: #344a6a;
+            color: #f4f4f4;
         }
 
         .content {
@@ -32,6 +34,8 @@
 
         .scroll-container {
             position: relative;
+            margin-bottom: 0em;
+            margin-top: 0em;
         }
 
         #map {
@@ -50,7 +54,7 @@
         }
 
         .footer {
-            background: #f4f4f4;
+            background: #344a6a;
             text-align: center;
             font-size: 0.8em;
             margin-top: 4em;
@@ -59,20 +63,27 @@
 
         figure {
             margin: 0;
-            padding-bottom: 1.2em;
+            padding-bottom: 1em;
         }
 
         figcaption {
-            font-size: 0.8em;
+            font-size: .8em;
             text-align: center;
             margin-top: 0.5em;
-            color: #041e42;
+            color: #f4f4f4;
         }
 
         h1 {
             font-family: 'Lora', Georgia, serif;
             font-weight: bold;
-            font-size: 3em;
+            font-size: 3.5em;
+            line-height: 1.1;
+        }
+
+        h2 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 2em;
             line-height: 1.1;
         }
 
@@ -126,7 +137,7 @@
         }
 
         .lefty {
-            width: 33vw;
+            width: 50vw;
             margin-left: 5vw;
         }
 
@@ -141,13 +152,13 @@
         }
 
         .light {
-            color: #444444;
-            background-color: #fafafa;
+            color: #fafafa;
+            background-color: #344a6a;
         }
 
         .dark {
             color: #fafafa;
-            background-color: #444;
+            background-color: #344a6a;
         }
 
         .step {
@@ -163,7 +174,7 @@
         .step div {
             padding: 25px 50px;
             line-height: 25px;
-            font-size: 13px;
+            font-size: 18px;
         }
 
         .step img {
@@ -201,7 +212,7 @@
         .with-video-bg {
             position: relative;
             background-size: cover;
-            margin-bottom: 2em;
+            margin-bottom: 0em;
 
             /* Center everything inside */
             min-height: 70svh;
@@ -235,10 +246,57 @@
     </style>
 </head>
 
+
 <body>
-   <div class="header with-video-bg">
-        <div class="./assets/tahoe-hero.mp4">
+<!-- Header video -->
+<div class="header with-video-bg">
+        <div class="video-background">
             <video src="./assets/tahoe-hero.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
+        </div>
+        <div class="content">
+            <h1>Tahoe Environmental Observatory Network</h1>
+            <p class="subhead">Monitoring beyond the lake to protect the Tahoe Basin</p>
+        </div>
+    </div>
+
+<!-- Container for map scrollytelling  -->
+    <div class="scroll-container">
+        <div id="map"></div>
+        <div id="story"></div>
+
+    </div>
+
+<!-- Content after map -->
+    <div class="content">
+        <br><br>
+        <h2>Taking a closer look.</h2>
+        <p>By monitoring sites across the Tahoe Basin, the Tahoe Environmental Observatory Network can track different threats to the lake.</p>
+        <hr>
+        <div style="display: flex; gap: 40px; align-items: flex-start;">
+  <!-- Left side: text -->
+    <div style="width: 65%;">
+        <h2><span style="color: #dcc581;">Water Quality and Clarity</span></h2>
+        <p>Lake Tahoe is home to many native species of plants and animals, all of which contribute to a thriving and healthy aquatic ecosystem. Depending on where you are on the lake, however, the crystal blue waters are turning a murky green as non-native species and environmental changes alter the lake’s natural state.</p>
+         </div>
+
+
+         <!-- Right side: image -->
+    <figure style="width: 35%; margin: 0;">
+            <img
+                src="./assets/TEON -water-export.png">
+            <figcaption>Nearshore water monitoring sites</figcaption>
+    </figure>
+    </div>
+    <h3>Tracking Tahoe's water</h3>
+        <p>By monitoring underwater sites near the shores of the lake, scientists can keep track of oxygen levels that can disrupt the water’s balance.</p>
+        <p>Researchers Katie Senft and Emily Carlson carefully deploy and calibrate water quality sensors in shallow, sensitive shoreline zones. These nearshore areas are especially important because they’re where people most often interact with the lake, and where changes are likely first to occur.</p> 
+
+    <iframe width="650" height="366" src="https://www.youtube.com/embed/swehnxdvhU8?si=ERQsvWUgvSX9cmJ9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+<div class="header with-video-bg">
+        <div class="video-background">
+            <video src="./assets/plastic-beach.mp4" preload="auto" tabindex="0" playsinline autoplay loop muted></video>
         </div>
         <div class="content">
             <h1>Here is a header with a video background</h1>
@@ -246,22 +304,17 @@
                 get too
                 wide</p>
         </div>
+    
     </div>
-    <div class="content">
-        <div class="byline">
-            <p>By <a href="https://jonathansoma.com">Jonathan Soma</a></p>
-        </div>
-        <p>We had to create another <code>class="content"</code> before the byline/after the header so everything would
-            line up okay.</p>
-        <p>You can use this for things other than headers if you want, too.</p>
-    </div>
+        
 
-    <div class="scroll-container">
-        <div id="map"></div>
-        <div id="story"></div>
 
-    </div>
 
+
+
+
+
+<!-- config styling for map -->
     <script src="./config.js"></script>
     <script>
         var initLoad = true;
