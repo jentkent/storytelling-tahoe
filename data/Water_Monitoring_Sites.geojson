@@ -1,0 +1,213 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.941133,
+          39.088329
+        ]
+      },
+      "properties": {
+        "Site_Name": "Glenbrook",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "\u00a0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.951608,
+          38.974209
+        ]
+      },
+      "properties": {
+        "Site_Name": "4H Camp",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "\u00a0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.95245,
+          38.9598667
+        ]
+      },
+      "properties": {
+        "Site_Name": "Lakeside",
+        "Station_Type": "miniDOT",
+        "Data_availability": "Quarterly",
+        "Notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0002667,
+          38.95005
+        ]
+      },
+      "properties": {
+        "Site_Name": "Tahoe Keys East",
+        "Station_Type": "miniDOT",
+        "Data_availability": "Quarterly",
+        "Notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0415167,
+          38.9404667
+        ]
+      },
+      "properties": {
+        "Site_Name": "Camp Richardson",
+        "Station_Type": "miniDOT",
+        "Data_availability": "Quarterly",
+        "Notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0415167,
+          38.9404667
+        ]
+      },
+      "properties": {
+        "Site_Name": "Camp Richardson",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "Deployment pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.0517,
+          38.94235
+        ]
+      },
+      "properties": {
+        "Site_Name": "Tallac Point",
+        "Station_Type": "miniDOT",
+        "Data_availability": "Quarterly",
+        "Notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.157165,
+          39.11428
+        ]
+      },
+      "properties": {
+        "Site_Name": "Blackwood Creek",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "\u00a0Deployment pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.151085,
+          39.134643
+        ]
+      },
+      "properties": {
+        "Site_Name": "Sunnyside",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "\u00a0Deployment pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.1115667,
+          39.1783833
+        ]
+      },
+      "properties": {
+        "Site_Name": "Lake Forest",
+        "Station_Type": "miniDOT",
+        "Data_availability": "Quarterly",
+        "Notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -119.9474667,
+          39.2382
+        ]
+      },
+      "properties": {
+        "Site_Name": "Incline Beach",
+        "Station_Type": "miniDOT",
+        "Data_availability": "Quarterly",
+        "Notes": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.023172,
+          39.234002
+        ]
+      },
+      "properties": {
+        "Site_Name": "Kings Beach",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "Deployment pending"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -120.160965,
+          39.102196
+        ]
+      },
+      "properties": {
+        "Site_Name": "Fluer du Lac",
+        "Station_Type": "EXO",
+        "Data_availability": "Real time",
+        "Notes": "Deployment pending"
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+﻿Site_Name,Lat,Long,Station_Type,Data availability,Notes
+Glenbrook,39.088329,-119.941133,EXO,Real time, 
+4H Camp,38.974209,-119.951608,EXO,Real time, 
+Lakeside,38.9598667,-119.95245,miniDOT,Quarterly,
+Tahoe Keys East,38.95005,-120.0002667,miniDOT,Quarterly,
+Camp Richardson,38.9404667,-120.0415167,miniDOT,Quarterly,
+Camp Richardson,38.9404667,-120.0415167,EXO,Real time,Deployment pending
+Tallac Point,38.94235,-120.0517,miniDOT,Quarterly,
+Blackwood Creek,39.11428,-120.157165,EXO,Real time, Deployment pending
+Sunnyside,39.134643,-120.151085,EXO,Real time, Deployment pending
+Lake Forest,39.1783833,-120.1115667,miniDOT,Quarterly,
+Incline Beach,39.2382,-119.9474667,miniDOT,Quarterly,
+Kings Beach,39.234002,-120.023172,EXO,Real time,Deployment pending
+Fluer du Lac,39.102196,-120.160965,EXO,Real time,Deployment pending

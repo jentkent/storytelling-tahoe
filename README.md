@@ -20,10 +20,9 @@ I also had fun learning how to piece together the story visually in a way that I
 
 I am excited to continue developing my skills in QGIS and the other mapping tools as well as finding more neat ways to use staellite imagery and sensor data. Where I hope to dive into next is more of the data wrangling/scraping. I only *scraped* the surface there and plan to be the perpetual Lede student, back each year to learn more!
 
+>**I chose not to delete the following section fromt he MapBox template README so I could have it for future use. I did not write this content.**
 
 # MapBox scrollytelling template details
-
-**I chose not to delete this so I could have it for future use. I did not write this content.**
 
 - [Interactive Storytelling](#interactive-storytelling)
   - [Live Demo](#live-demo)
