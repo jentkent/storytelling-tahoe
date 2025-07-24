@@ -107,7 +107,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             image: './assets/research-nearshore.jpg',
-            description: 'The Tahoe Environmental Observatory Network is monitoring water quality in the nearshore,',
+            description: 'The Tahoe Environmental Observatory Network is monitoring <span style="color: #dcc581;"><strong>water quality in the nearshore,</span>,</strong>',
             location: {
                 center: [-119.940589, 39.080105],
                 zoom: 10.3,
@@ -135,7 +135,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             image: './assets/research-land.jpg',
-            description: 'while also tracking changes across the Tahoe Basin, like forest and soil health, changes in climate, and wildlife activity,',
+            description: 'while also tracking changes across the Tahoe Basin, like <span style="color: #dcc581;"><strong>forest and soil health, changes in climate, and wildlife activity,</span></strong>',
             location: {
                 center: [-119.940589, 39.080105],
                 zoom: 10.3,
@@ -165,7 +165,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             image: './assets/research-streams.jpg',
-            description: 'as well as changes in the streams that feed the lake.',
+            description: 'as well as changes in the <span style="color: #dcc581;"><strong>streams that feed the lake.</span></strong>',
             location: {
                 center: [-119.940589, 39.080105],
                 zoom: 10,
@@ -184,20 +184,14 @@ var config = {
                 }
             ],
             onChapterExit: [  
-                {
-                layer: 'stream-monitoring',
-                opacity: 0,
-                duration: 500
-                }
             ]
         },
                 {
             id: 'enter-wildfire',
             alignment: 'left',
             hidden: false,
-            title: 'Threats - Wildfire',
-            image: './assets/caldor-fire.jpg',
-            description: 'Buenos Aires, the capital of Argentina, is a dynamic city known for its European-inspired architecture, vibrant tango culture, and rich culinary scene. Often called the "Paris of South America," it blends historic charm with modern energy.  You can add as many chapters as you need, just copy the JSON data and make changes.',
+            image: './assets/tahoe-threats.jpg',
+            description: 'This comprehensive view of the Tahoe Basin will help us better understand the changes impacting the watershed, including <span style="color: #dcc581;"><strong>impacts from increasing wildfire activity, invasive species, overtourism and more.</span></strong> All the information gathered will be made public in 2026 and can be used to spearhead conservation efforts, public policy, and sustainable tourism and outdoor recreation.<br><br>*Pictured here is satellite imagery of smoke from the 2021 Caldor Fire overtaking the lake and Tahoe Basin.',
             location: {
                 center: [-120.379528, 39.042268],
                 zoom: 9.5,
@@ -210,17 +204,41 @@ var config = {
             callback: '',
             onChapterEnter: [
                 {
+                layer: 'water-monitoring',
+                opacity: 1,
+                duration: 2000
+                },
+                {
+                layer: 'terrestrial-monitoring',
+                opacity: 1,
+                duration: 4000
+                },
+                {
                 layer: 'caldor-fire',
                 opacity: 1,
-                duration: 3000
-                }
+                duration: 9000
+                },
             ],
             onChapterExit: [  
                 {
                 layer: 'caldor-fire',
                 opacity: 0,
-                duration: 500
-                }
+                duration: 0
+                },                {
+                layer: 'water-monitoring',
+                opacity: 0,
+                duration: 0
+                },
+                {
+                layer: 'terrestrial-monitoring',
+                opacity: 0,
+                duration: 0
+                },
+                {
+                layer: 'stream-monitoring',
+                opacity: 0,
+                duration: 0
+                },
             ]
         }
     ]
