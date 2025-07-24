@@ -1,9 +1,30 @@
 
 # Tahoe Monitoring Project
 
-TBD
+For this project, I chose to focus on improving my mapping and visual storytelling skills by employing several of the tools we learned in class. I used QGIS (and I played around with ArcGIS, which we didn't learn in class but I have access to), DataWrapper, Adobe Illustrator, Mapbox, Mapshaper, GeoJson.io and Copernicus. 
 
-# MapBox scrollytelling template
+# The data
+
+I used data provided by researchers at my university who I work with. I was provided an excel doc of lat/long locations for all the monitoring sites and turned those into geojson files. I did my own research to find the data to build the [Tahoe Basin shape file](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032011.26910.1) and the satellite imagery of the Caldor Fire (geo-referenced TIFF downloaded from Copernicus of Lake Tahoe on Aug 22, 2021). All location data was used to create the MapBox style which is embedded in the story.
+
+
+I also found some really cool [wildfire data from the National Inter Agency Fire Center](https://data-nifc.opendata.arcgis.com/datasets/nifc::interagencyfireperimeterhistory-all-years-view/about) that doesn't appear in my story, but was an interesting practice in filtering a large shape file. Below is a filtered version of the data visualized in ArcGIS.
+
+![Wildfire perimeters near Lake Tahoe from the past five years](assets/arcgis-wildfire-perimeters.png)
+
+## What I learned and where I grew the most
+
+I had so much fun oooing and ahhing in Aaron Reiss's class sessions and am excited by the tools Veronica Penney shared as well. Because I am taking the course part time, while working, and very (very) pregnant, I had to pick and choose what I could prioritize. The TAs were invaluable – thank you to Hannah, Alex, Yip, and Emma for your patience and support!!
+
+I also had fun learning how to piece together the story visually in a way that I liked. To do this, I had to pair Aaron's Mapbox template with one of Soma's fancy templates. A lot of mistakes were made and several conversations with TAs were had, but I like how it turned out!
+
+I am excited to continue developing my skills in QGIS and the other mapping tools as well as finding more neat ways to use staellite imagery and sensor data. Where I hope to dive into next is more of the data wrangling/scraping. I only *scraped* the surface there and plan to be the perpetual Lede student, back each year to learn more!
+
+
+# MapBox scrollytelling template details
+
+**I chose not to delete this so I could have it for future use. I did not write this content.**
+
 - [Interactive Storytelling](#interactive-storytelling)
   - [Live Demo](#live-demo)
   - [Prerequisites](#prerequisites)
@@ -19,8 +40,6 @@ TBD
   - [Authors](#authors)
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
-
-![3D mountains in Colorado](assets/co14ersstory.gif)
 
 # Interactive Storytelling
 Some stories are best told with a map. Data journalists covering changing conditions in a population's demographics, the environment, an international conflict, or telling a simple travel story frequently provide geographic context in their graphics.
