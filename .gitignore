@@ -1,3 +1,10 @@
+.DS_Store
+.Rhistroy
+.gitattributes
+.CHANGELOG.md
+.CODE-OF-CONDUCT.md
+.LICENSE
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
